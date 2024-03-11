@@ -1,0 +1,13 @@
+USE mysql;
+
+CREATE TABLE IF NOT EXISTS high_scores (
+    name VARCHAR(50) NOT NULL,
+    score INT NOT NULL,
+    PRIMARY KEY (name)
+);
+
+-- CREATE TABLE IF NOT EXISTS Highscores(
+--     ID INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+--     Name VARCHAR(100) NOT NULL,
+--     Score INT NOT NULL
+-- );
